@@ -1,0 +1,78 @@
+CS558 : COMPUTER SYSTEM LAB ASSIGNMENT - 05
+Instructor : Dr. Manas Khatua and Dr. Moumita Patra
+TA's : Alakesh Kalita, Arunav Saikia, Meenu Rani Dey, Priya Undriwade, Vinay Kumar Gupta
+Sumbittted By : Himanshu Patel(204101029), Ketan Karnakota(204101030)
+Disk Created and superblock Initialized !
+1. Create file
+2. Delete File
+3. List all files
+4. Read from a file
+5. Write to a File
+Enter -1 to exit
+Enter your choice :1
+Enter the name of file :file1
+Enter the size of file :7
+File created successfully
+----------------------------------------------------------------------
+1. Create file
+2. Delete File
+3. List all files
+4. Read from a file
+5. Write to a File
+Enter -1 to exit
+Enter your choice :1
+Enter the name of file :file2
+Enter the size of file :7
+File created successfully
+----------------------------------------------------------------------
+1. Create file
+2. Delete File
+3. List all files
+4. Read from a file
+5. Write to a File
+Enter -1 to exit
+Enter your choice :5
+Enter the file name where you want to write :file1
+Enter the block Number in the file :1
+Enter the data to be wriiten :
+This is block 1 of file 1
+Data Written
+----------------------------------------------------------------------
+1. Create file
+2. Delete File
+3. List all files
+4. Read from a file
+5. Write to a File
+Enter -1 to exit
+Enter your choice :4
+Enter the file name from which data is to be read :file1
+Enter the block number in the file :1
+This is block 1 of file 1
+----------------------------------------------------------------------
+1. Create file
+2. Delete File
+3. List all files
+4. Read from a file
+5. Write to a File
+Enter -1 to exit
+Enter your choice :3
+------------------------
+Name : file1 Size: 7
+Name : file2 Size: 7
+----------------------------------------------------------------------
+1. Create file
+2. Delete File
+3. List all files
+4. Read from a file
+5. Write to a File
+Enter -1 to exit
+Enter your choice :2
+Enter the name of file to be deleted :file1
+File Deleted successfully
+----------------------------------------------------------------------
+1. Create file
+2. Delete File
+3. List all files
+4. Read from a file
+5. Write to a File
+Enter -1 to exit
