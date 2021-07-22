@@ -9,5 +9,5 @@ The layout of 128 KB disk is as follows:
 * The first 1KB block is called the super block. It stores the free block list and index nodes (inode) for each file. 
 * The remaining 127 1KB blocks store data blocks of the files on your file system. 
 * The exact structure of the super block is as follows;
-** The first 128 bytes stores the free block list. Each entry in this list indicates whether the corresponding block is free or in use (if the i-th byte is 0, it indicates that the block is free, else it is in use). 
-** Initially all blocks except the super block are free.Immediately following the free block list are the 16 index nodes, one for each file that is allowed in the file system. Initially, all inodesare free. 
+* The first 128 bytes stores the free block list. Each entry in this list indicates whether the corresponding block is free or in use (if the i-th byte is 0, it indicates that the block is free, else it is in use). 
+* Initially all blocks except the super block are free.Immediately following the free block list are the 16 index nodes, one for each file that is allowed in the file system. Initially, all inodesare free. 
