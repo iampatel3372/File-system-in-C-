@@ -1,6 +1,7 @@
 # File-system-in-C++
 This assignment is to design a simple File System which makes the following assumptions:
-* The File systemresides ona disk that is 128KBin size. There is only one root directory. No subdirectories are allowed. 
+* The File systemresides ona disk that is 128KBin size. 
+* There is only one root directory. No subdirectories are allowed. 
 * The File system supports at most 16 files. 
 * The maximum size of a file is 8 blocks where each block is 1KB in size. 
 * Each File has a unique name.
